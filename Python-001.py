@@ -12,11 +12,11 @@ print("SYNTAX".center(50, "+"))  # Output separator
 # as future you will probably not know what current you was thinking!
 
 # Comments are usually written on the line directly above the code that the comment is about e.g.
-# Print out the manditory new Python programmers greeting:
+# Print out the mandatory new Python programmers greeting:
 print("Hello World!")
 
 # They can also be on the same line as the code e.g.
-print("There is a comment after this code!")  # This is an in-line comment, two spaces seperate the code and the '#'
+print("There is a comment after this code!")  # This is an in-line comment, two spaces separate the code and the '#'
 
 # It is best practice to avoid writing long lines of code,
 # limiting them to seventy-nine(79) characters,
@@ -24,7 +24,7 @@ print("There is a comment after this code!")  # This is an in-line comment, two 
 # many IDEs will complain if your lines go over one-hundred(100) characters
 
 print("INDENTATION".center(50, "+"))  # Output separator
-# Python uses indentation, or whitespace, to stucture itself
+# Python uses indentation, or whitespace, to structure itself
 # to indent code you need at least one(1) space, but four(4) is considered best practice
 if True:  # This is an 'IF' statement, the code inside only runs if the condition is met.
     # True is always true or one(1), so the following code will run.

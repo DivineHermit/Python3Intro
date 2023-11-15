@@ -7,45 +7,45 @@
 print("VARIABLES".center(50, "+"))  # Output separator
 # There are some rules when it comes to naming variables
 # variable names can NOT start with a number e.g. 1st_name = "John"
-# they can only use leters, numbers or the underscore '_' e.g. var_1, v2, VAR
-# thay are case sensative e.g. var, Var & VAR are three seperate variables
-# variables in all capitols e.g. ONE = 1 are considered constants and the data insde them should not be altered while running
+# they can only use letters, numbers or the underscore '_' e.g. var_1, v2, VAR
+# they are case sensitive e.g. var, Var & VAR are three separate variables
+# variables in all capitols e.g. ONE = 1 are considered constants and the data inside them should not be altered while running
 
 # There are three common style of writing variable names
-# camelCase - you see this style alot in C and Java languages
+# camelCase - you see this style a lot in C and Java languages
 yourVariableNameHere = "Camel Case"
 # PascalCase
 YourVariableNameHere = "Pascal Case"
-# snake_case - this is the prefered style for Python as it is easy to read
+# snake_case - this is the preferred style for Python as it is easy to read
 your_variable_name_here = "Snake Case"
 
-# Variables are continers for data, a part of the the computers memory where we can store something 
-# a variable should be named descriptivly so it is easy to tell what it contains, and is written with the following format:
-# 'name of the variable' = 'data to place inside the variabel'
+# Variables are containers for data, a part of the the computers memory where we can store something 
+# a variable should be named descriptively so it is easy to tell what it contains, and is written with the following format:
+# 'name of the variable' = 'data to place inside the variable'
 # for example:
 name = "Bob"
 
-# Python creates variable dynamicaly, just by asigning some data to the variable
+# Python creates variable dynamically, just by assigning some data to the variable
 # in the above example 'name' becomes a variable containing the string "Bob"
 # Note: we'll cover strings and data types later.
 
 # The above example is a 'hard coded' variable.
 # We chose the name of the variable, 'name', and gave it a specific bit of data, "Bob"
-# We'll be doing this alot but it is worth noting that we wont always know what the data is, just what it's suposed to be
+# We'll be doing this a lot but it is worth noting that we wont always know what the data is, just what it's supposed to be
 # so when writing code in later classes, the code can be somewhat abstract and a little removed the task you are trying to accomplish
-# this can be confusing at first but get easier with practise and repitition.
+# this can be confusing at first but get easier with practice and repetition.
 
 # It is usually best practice to do one(1) variable assignment per line:
 age = 32
 pet = "Dog"
 
-# but you can do multipul variables on a single line:
+# but you can do multiple variables on a single line:
 a, b, c = 1, 2, 3
 # 'a' would contain the number 1, 'b' would contain 2 and can you guess what 'c' contains?
 print(a,b,c)  # we can print the variables to see there contents.
 
 # Variables also have a 'scope' this is an area of the code that has access to the variable
-# or what part of the code is aware that the variable exsists.
+# or what part of the code is aware that the variable exists.
 # The variables created above are considered to be in the 'global' scope and could be easily used anywhere in this file.
 
 # VARIABLE SCOPE #
@@ -54,7 +54,7 @@ print("VARIABLE SCOPE".center(50, "+"))  # Output separator
 # However there are other types of 'scope' like 'if' statements, while & for loops and functions, we'll go into each of these in detail later,
 # but for now here is an example of a variable inside a function:
 def example_function():
-    # The indented code of a funciton is its own scope
+    # The indented code of a function is its own scope
     name = "Dorothy"
     # print the above variable
     print(name)
@@ -64,7 +64,7 @@ def example_function():
 example_function()
 # and now we'll print the 'name' variable and see what has changed:
 print(name)
-# as you can see when we created the 'name' variable inside the function it didn't overide the original variable
+# as you can see when we created the 'name' variable inside the function it didn't override the original variable
 # created at the beginning of this script.
 
 # UNPACKING #

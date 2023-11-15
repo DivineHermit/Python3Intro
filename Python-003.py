@@ -15,7 +15,7 @@ name = "Bob"
 # Python knowns anything inside speech marks is a string, we can check this by printing out the type of the 'name' variable:
 print(type(name))
 # The output should be similar to "class 'str'".
-# This means we can use the 'name' variable just like a string, using concatination, methods and formatting.
+# This means we can use the 'name' variable just like a string, using concatenation, methods and formatting.
 # We'll cover all of those a little later.
 
 # But if we want to be sure of the data type being assigned we can use casting.
@@ -24,7 +24,7 @@ name = str("Bob")
 # This time we used the keyword 'str()', this is actually a function just like the the 'print()' function we've been using.
 age = int("32")
 # Here we have given the string of "32" to the int() function and saved it to a new variable called 'age'.
-# But by specificly using the int() funtion the data type of age is an integer, a round/solid number.
+# But by specifically using the int() function the data type of age is an integer, a round/solid number.
 # Lets check and see:
 print("The 'name' variable contains:", name, "and has the" , type(name), "datatype.")
 print("The 'age' variable contains:", age, "and has the" , type(age), "datatype.")
@@ -33,7 +33,7 @@ print("The 'age' variable contains:", age, "and has the" , type(age), "datatype.
 # However, if you try assigning an integer as follows, you'll get an error: num = int("A")
 # The error that you get will look something like:
 # ValueError: invalid literal for int() with base 10: 'A'
-# This means that the string value that we passed to the int() function coudn't be interpreted as a numerical value.
+# This means that the string value that we passed to the int() function couldn't be interpreted as a numerical value.
 
 # USER INPUT: x = input("Enter your name: ")
 # ======================================== #
@@ -61,7 +61,7 @@ print(f"You entered '{age}'. \nData type is: {type(age)}")
 print("TYPE HINTING".center(50, "+"))  # Output separator
 # Type hinting is something we can add to our code to tell other, and our future selves, what our code is expecting for values or input.
 year: int = 2023
-# Above we create a varaible called 'year', we use Stephen's favorite ':' character, and the 'int' keyword.
+# Above we create a variable called 'year', we use Stephen's favorite ':' character, and the 'int' keyword.
 # this tells us we are expecting an integer to be placed in side the 'year' variable.
 print(year, type(year))
 
@@ -81,6 +81,6 @@ def add(v1: float, v2: float):
 # So we can give values like 1,42, 3.1415, 6.9 and the function will still work, lets have a go:
 print(add(2, 2))
 print(add(6.9, 3.1))
-# As we descovered earlier, Python doesn't enforce type hinting so we could still use the above function in other ways, such as:
+# As we discovered earlier, Python doesn't enforce type hinting so we could still use the above function in other ways, such as:
 print(add("Hello ", "World!"))
-# Since two(2) strings can be concatinated with the '+' operator the function still works, well cover this is more details in the next section.
+# Since two(2) strings can be concatenated with the '+' operator the function still works, well cover this is more details in the next section.
