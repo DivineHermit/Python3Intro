@@ -1,0 +1,119 @@
+Beginners to intermediate Python programming.
+
+CORE
+-SYNTAX
+--Indentation
+--if...else
+
+-COMMENTS
+--Single line
+--Inline
+--Triple quotes
+---Docstrings
+
+-VARIABLES
+--Name rules
+--Styles
+---Camel Case: yourVariableNameHere
+---Pascal Case: YourVariableNameHere
+---Snake Case: your_variable_name_here
+--Assignment:
+---Single line: x = 1
+---Multi-Single line: a, b, c = 1, 2, 3
+---Multi-Assign: a = b = c = "Bob"
+---Typing: name: str = "Bob"
+---Unpacking
+--Variable output: print(a, b, c)
+--Variable Scope
+--Global Variables
+
+-DATA TYPES
+--Casting
+---int()
+---str()
+---float()
+
+--Built-in types:
+---String / str: x = "Bob"
+---User Input: name = input("Enter your name: ")
+---Slicing Strings: x[1:2]
+---Modifying Strings
+----.upper()
+----.lower()
+----.strip()
+----.replace("B", "P")
+----.split()
+---String Concatenation
+---String Formatting
+----.format
+----f Strings: y = f"Hello {x}"
+----Escape Characters
+
+---Operators
+
+---Numeric
+----Integer / int: x = 1
+----Floating Point / float: x = 1.0
+----Complex Number / complex: x = 1j
+----Random Numbers: import random
+
+---Sequences
+----List / list: x = [1, 2, 3]
+-----Access Items: x[1] / x[-2] / x[1:2]
+-----Changing List Items: x[1] = 9
+-----.insert(2, "Three")
+-----.append(20)
+-----.extend((5, 6, 7))
+-----.remove("Three")
+-----.pop(1)
+-----del x[1] / del x
+-----.clear()
+-----.copy() / y = list(x)
+----Tuple / tuple: x = (1, 2, 3)
+----Range / range: x = range(6)
+
+---Mapping
+----Dictionary / dict: x = {"a": 1, "b": 2, "3": 3}
+
+---Sets
+----Set / set: x = {"one", "two", "three", "three"}
+----Frozen Set / frozenset: frozenset({"one", "two", "three", "three"})
+
+---Boolean
+----Boolean / bool: x = True
+
+---Binary (Optional)
+----Bytes / bytes: x = b"Hello"
+----Byte Array / bytearray: x = bytearray(5)
+----Memory View / memoryview: x = memoryview(bytes(5))
+
+---None/Null
+----None Type / NoneType: x = None
+
+--FLOW
+---While Loops
+---For Loops
+
+-Functions
+-Lambda
+
+FILE HANDLING
+-Intro
+-Reading
+-Writing/Creating
+-Deleting
+
+OBJECT ORIENTATED PROGRAMMING
+-Classes/Objects
+-Inheritance
+-Iterators
+-Polymorphism
+
+OTHER
+-Modules
+--PIP
+-Dates
+-Math
+-JSON
+-Try...Except
+-RegEx

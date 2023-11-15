@@ -1,0 +1,114 @@
+===== SYNTAX =====
+Q01) Give at least two examples of how to print data to the screen?
+A01) print("Hello World!") / print("Hello" + " world!") / print("Hello", " world!")
+
+Q02) How much indentation is needed when writing IF statements, for loops and while loops?
+A02) At least one space, but four is the most comman and best practice.
+
+Q03) What is the structure of an IF and an IF/ELSE statements?
+A03)
+if CONDITION:
+    # Do this code
+
+if CONDITION:
+    # Do this code
+else:
+    # Do this other code
+
+===== COMMENTS =====
+Q04) What symbol is used to start a comment in Python?
+A04) The hash '#' symbol.
+
+Q05) How is a comment different from a line of Python code?
+A05) Comments are ignored by the Python interpreter and just used to supply the programmer with helpful information.
+
+Q06) Where is the best place to put a comment?
+A06) It is best practice to place a comment on the line directly above the code the comment is about.
+    Short inline comments are placed at the end of the line with two spaces seperating the comment and the code.
+
+Q07) How do you create a module level Doc-string?
+A07) """ A Doc string is a description of a module, script or function encased in tripple quotation makes. """
+
+===== VARIABLES =====
+Q08) Give three examples of variable assignment.
+A08) name = "Bob" / age = 32 / pi = 3.1415
+
+Q09) True or false: You can assign multipul variables on a single line.
+A09) True : a, b, c = 1, 2, 3
+
+Q10) Are the variable 'name' and 'Name' the same?
+A10) No, they are two seperate varaibles.
+
+Q11) Give an example of the same variable in Camel case, Pascal case and Snake case.
+A11) yourNameHere = "Camel case" / YourNameHere = "Pascal case" / your_name_here = "Snake case"
+
+===== STRINGS =====
+Q12) Give an example of all three ways to create a string.
+A12) 'Single quote string' / "Quotation marks" / """Tripple quotation marks"""
+
+Q13) What is the outcome for the following code?
+     print(3 * "2")
+A13) 222
+
+Q14) What is the outcome of the following code?
+     print(3 + "2")
+A14) TypeError: unsupported operand type(s) for +: 'int' and 'str'
+     You can not do math with integers AND strings.
+
+Q15) How would you capitolize each letter in the following code?
+     text = "Lorem ipsum dolor sit amet."
+A15) print(text.upper()) / text = text.upper()
+
+Q16) How can you split a string across multipul lines?
+A16) Use the escape character '\n' to insert a newline.
+
+Q17) Code a small application to ask for a name and birth year,
+     then use an 'f' string to greet the user and tell them how old they are.
+     This can be done in three lines of Python code, and remember you can NOT
+     do math on a string.
+A17)
+    name = input("What is your name?: ")
+    year = input("What year were you born?: ")
+    print(f"Greetings {name}, you are {2023-int(year)} years old!")
+
+===== OPERATORS =====
+Q18) What are the operators: '>', '>=', '==', '<=', '<', '**'
+A18) Grater than, greater or equal to, equal to, less or equal to,
+     less than, power (exponent?).
+
+Q19) Can you use '+' on strings?
+A19) Yes, "Bob" + "by" will become "Bobby"
+
+Q20)
+A20)
+
+Q21)
+A21)
+
+Q22)
+A22)
+
+Q23)
+A23)
+
+Q24)
+A24)
+
+Q25)
+A25)
+
+Q26)
+A26)
+
+Q27)
+A27)
+
+Q28)
+A28)
+
+Q29)
+A29)
+
+Q30)
+A30)
+
