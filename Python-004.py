@@ -187,7 +187,7 @@ print("Hello {2}, you are {0} years old making {1} your birth year!".format(age,
 # Lets print out a f-string similar to the one above.
 # F-strings allow us to place Python code directly into our text and have it evaluated at run time and be displayed.
 # To create an f-string just place an 'f' before the quotation marks, similar to how we made a raw string earlier.
-print(f"Hello {name.upper()}, you are {16+16+1} years old, making your birth year {2023 - 33}!")
+print(f"Hello {name.upper()}, you are {16+16+1} years old, making your birth year {2023 - age}!")
 # We use curly brackets just like the 'format' method, but we can write code inside them.
 
 # I recommend checking out the RealPython article above as it covers the Python2 modulo text formatting method
