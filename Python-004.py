@@ -63,26 +63,28 @@ print(raw_text)
 # SLICING #
 # ======= #
 print("SLICING".center(50, "+"))  # Output separator
+slicing_text = "Hilary pointed out some typos in this section, so thanks to her."
 # They also class as an array, meaning each character in the string has an index that can be used to identify it.
 # Python indexing starts at zero(0) so the index of the first letter of a string is 0, while the second letter is 1 and so on.
 
 # We can slice array's using a three(3) part pattern at the end of the array, it looks like this [::] or [1:5:3] with values.
 # The first value is the starting index, the second is the end index and the final, optional, value are the steps.
 
-# Let's get the first three(3) letters from our single_quote string from earlier:
-print(single_quote[:3])  # this will print out 'Sin'
+# Let's get the first five(5) letters from our 'slicing_text' string above:
+print(slicing_text[:6])  # this will print out 'Hilary'
 # We didn't supply a starting index so Python will start at the beginning of the string and go to the end value.
-# You may of noticed we wanted three(3) characters and stopped at index three(3)... but index three(3) is:
-print("The letter at index 3 is:", single_quote[3])  # here we only supply one value, so this is an index and not a slice.
-# This means that the end index we asked for is NOT included in the slice.
-# Here three(3) slicing examples using the single_quote string above:
-print("The letters at index 14 to 18 is:", single_quote[14:18])
-print("The letters at index -28 to -24 is:", single_quote[-28:-24])  # you can use negatives to slice from the end of a string
-# but note when using a negative index the last letter index is -1 not -0 
-print("The letters at index 83 to 89 is:", single_quote[83:89])
+# You may of noticed we wanted five(5) characters and stopped at index six(6)... this is because the last index is not included in the slice.
+
+print("The letter at index 3 is:", slicing_text[3])  # here we only supply one value, so this is an index and not a slice.
+
+# Here are three(3) slicing examples using the slicing_text string above:
+print("The letters at index 14 to 18 is:", slicing_text[-14:-8])  # you can use negatives to slice from the end of a string
+# but note when using a negative index the last letter index is -1 not -0
+print("The letters at index -28 to -24 is:", slicing_text[57:60])
+print("The letters at index 83 to 89 is:", slicing_text[:6])
 
 # The step value can be used to skip over some of the indexes, lets print the first index and skip ahead four(4) character and repeat till the end.
-print(single_quote[::4])
+print("Every forth(4) character:\n" + slicing_text[::4])
 
 # STRING METHODS #
 # ============== #
