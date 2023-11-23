@@ -9,7 +9,7 @@ CORE
 --Single line
 --Inline
 --Triple quotes
----Docstrings
+---Doc-Strings
 
 -VARIABLES
 --Name rules
@@ -54,7 +54,6 @@ CORE
 ---Numeric
 ----Integer / int: x = 1
 ----Floating Point / float: x = 1.0
-----Complex Number / complex: x = 1j
 ----Random Numbers: import random
 
 ---Sequences
@@ -70,7 +69,6 @@ CORE
 -----.clear()
 -----.copy() / y = list(x)
 ----Tuple / tuple: x = (1, 2, 3)
-----Range / range: x = range(6)
 
 ---Mapping
 ----Dictionary / dict: x = {"a": 1, "b": 2, "3": 3}
@@ -81,11 +79,6 @@ CORE
 
 ---Boolean
 ----Boolean / bool: x = True
-
----Binary (Optional)
-----Bytes / bytes: x = b"Hello"
-----Byte Array / bytearray: x = bytearray(5)
-----Memory View / memoryview: x = memoryview(bytes(5))
 
 ---None/Null
 ----None Type / NoneType: x = None
