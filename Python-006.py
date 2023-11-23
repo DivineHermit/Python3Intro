@@ -1,8 +1,8 @@
 """
     Python3 Introduction
-    More Data Types: Sequences/Iterables - Lists, Tuples and Ranges.
+    More Data Types: Sequences/Iterables - Lists & Tuples
     Written by: Dominic Lee
-    Date: 
+    Date: 23/11/2023
 """
 print("SEQUENCES & ITERABLES".center(50, "+"))  # Output separator
 print("LISTS & LIST METHODS:")
@@ -45,7 +45,7 @@ cities.append("Bob")
 print(cities)  # We now have a list of cities and Bob (he gets everywhere!)
 # No offense to Bob, but he really doesn't belong in a list of cities, lets replace him with a different city, there are a few ways we can do this.
 # Since 'Bob' is the last item in the list we could use a negative index like: cities[-1] = "Derby"
-# but this is risky as we don't know for sure if the list order has changed since Bob was added, lets sort the list and see how to safely replace bob.
+# but this is risky as we don't know for sure if the list order has changed since Bob was added, lets sort the list and see how to safely replace Bob.
 print("\nSorted cities list, now Bob is lost!")
 cities.sort()  # Now Bob is somewhere in the list, but where?
 print(cities)
@@ -59,5 +59,32 @@ cities[bobs_index] = "Derby"
 print(cities)  # Bob is gone now, bye bye Bob!
 
 print("\nTUPLES:")  # Output separator
-# ----Tuple / tuple: x = (1, 2, 3)
-# ----Range / range: x = range(6)
+# Tuples are very similar to lists, the first difference is they are created with round brackets '()'. Lets make a tuple of country names:
+countries = ("England", "America", "France", "Bob", "Spain", "Germany", "Italy", "England")  # We now have our tuple, something seems odd, oh well.
+print("\nA tuple of countries:")
+print(countries)
+
+# Lets see what methods we can use on tuples:
+print("\nTuple methods:")
+[print(x) for x in dir(countries) if not x.startswith("_")]  # (a list comprehension to print out all the tuple methods)
+# As you can see, there aren't that many things we can do to our tuple. 
+
+# The count method will return an integer 
+print(f"\nThere are {countries.count("England")} instances of 'England' in the tuple.")
+print(f"There is {countries.count("Bob")} instance of 'Bob' in the tuple.")  # Wait a minute... BOB!
+
+# The index method will return the index location of the given item, lets locate Bob:
+print(f"Bob's index is {countries.index("Bob")}")
+
+# Tuples are immutable like strings, meaning once created tuples can NOT be added to or have items removed from them.
+# This means Bob is stuck somewhere between France and Spain forever, kinda.
+
+# If you need to change a tuple you have to create an entirely new tuple with the data you want.
+# The easiest way is to turn the tuple into a list, add/remove the items and then turn the updated list into a tuple.
+print("\nTurn the tuple into a list:")
+countries = list(countries)  # we can use the list keyword/function to convert our tuple to a list
+print(f"'countries' is now a list ({type(countries)})", countries)
+countries.remove("Bob")  # Poor Bob, he's been kicked out.
+# Now we can turn the list back into a tuple, with another keyword/function:
+countries = tuple(countries)  # countries is now a tuple once again.
+print(countries)  # Back to where we started, except for Bob, poor Bob.
