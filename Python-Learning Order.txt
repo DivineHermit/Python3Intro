@@ -87,8 +87,12 @@ CORE
 ---While Loops
 ---For Loops
 
--Functions
--Lambda
+-DRY Don't Repeat Yourself
+--Functions
+--Lambda
+
+-Imports/Modules
+--PIP
 
 FILE HANDLING
 -Intro
@@ -103,8 +107,6 @@ OBJECT ORIENTATED PROGRAMMING
 -Polymorphism
 
 OTHER
--Modules
---PIP
 -Dates
 -Math
 -JSON
