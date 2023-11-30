@@ -12,7 +12,7 @@ cities = ["London", "Birmingham", "Manchester", "Bristol", "Leeds", "Nottingham"
           "Aberdeen", "Cambridge", "Leicester", "Oxford", "Coventry", "York", "Plymouth"]
 # Now we have a list stored in the 'cities' variable, lets print off all the methods we can use
 [print(x) for x in dir(cities) if not x.startswith("_")]  # (a list comprehension to print out all the list methods)
-
+# Method summery from: https://www.w3schools.com/python/python_lists_methods.asp
 # append()	-   Adds an element at the end of the list
 # clear()	-   Removes all the elements from the list
 # copy()	-   Returns a copy of the list

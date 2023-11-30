@@ -102,7 +102,7 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 [print(x) for x in dir(text) if not x.startswith("_")]  # (a list comprehension to print out all the string methods)
 # Once a variable has been assigned, you have access to lots of methods for interacting with the data.
 # Here is a brief description of them from the W3Schools.com (a great resource for several programming/development languages)
-
+# Method summery from: https://www.w3schools.com/python/python_strings_methods.asp
 # capitalize()  - Converts the first character to upper case
 # casefold()    - Converts string into lower case
 # center()      - Returns a centered string
