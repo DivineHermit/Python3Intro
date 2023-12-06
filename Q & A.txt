@@ -1,5 +1,5 @@
 ===== SYNTAX =====
-Q01) Give at least two examples of how to print data to the screen?
+Q01) Give at least two examples of printing data to the screen?
 A01) print("Hello World!") / print("Hello" + " world!") / print("Hello", " world!")
 
 Q02) How much indentation is needed when writing IF statements, for loops and while loops?
@@ -43,7 +43,7 @@ Q11) Give an example of the same variable in Camel case, Pascal case and Snake c
 A11) yourNameHere = "Camel case" / YourNameHere = "Pascal case" / your_name_here = "Snake case"
 
 ===== STRINGS =====
-Q12) Give an example of all three ways to create a string.
+Q12) Give an example of three ways to create a string.
 A12) 'Single quote string' / "Quotation marks" / """Triple quotation marks"""
 
 Q13) What is the outcome for the following code?

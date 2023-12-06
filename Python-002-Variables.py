@@ -83,3 +83,18 @@ print(r)  # the 'r' variable now contains 'red'
 print(g)  # the 'g' variable now contains 'green'
 print(b)  # the 'b' variable now contains 'blue'
 print(o)  # and the 'o' variable contains a list of any left over data from the tuple, in this case the 'white' & 'black' items
+
+# QUESTIONS:
+"""
+Q08) Give three examples of variable assignment.
+A08) 
+
+Q09) True or false: You can assign multiple variables on a single line.
+A09) 
+
+Q10) Are the variable 'name' and 'Name' the same?
+A10) 
+
+Q11) Give an example of the same variable in Camel case, Pascal case and Snake case.
+A11) 
+"""

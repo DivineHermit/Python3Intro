@@ -192,3 +192,30 @@ print(f"Hello {name.upper()}, you are {16+16+1} years old, making your birth yea
 
 # I recommend checking out the RealPython article above as it covers the Python2 modulo text formatting method
 # as well as going into more detail of what we've covered here.
+
+# QUESTIONS:
+"""
+Q12) Give an example of three ways to create a string.
+A12) 
+
+Q13) What is the outcome for the following code?
+     print(3 * "2")
+A13) 
+
+Q14) What is the outcome of the following code?
+     print(3 + "2")
+A14) 
+
+Q15) How would you capitalize each letter in the following code?
+     text = "Lorem ipsum dolor sit amet."
+A15) 
+
+Q16) How can you split a string across multiple lines?
+A16) 
+
+Q17) Code a small application to ask for a name and birth year,
+     then use an 'f' string to greet the user and tell them how old they are.
+     This can be done in three lines of Python code, and remember you can NOT
+     do math on a string.
+A17)
+"""

@@ -38,3 +38,27 @@ if False:
 else:
     # No other conditions were set so this code is ran
     print("I am not false!")
+
+# QUESTIONS:
+"""
+Q01) Give at least two examples of printing data to the screen?
+A01) 
+
+Q02) How much indentation is needed when writing IF statements, for loops and while loops?
+A02) 
+
+Q03) What is the structure of an IF and an IF/ELSE statements?
+A03)
+
+Q04) What symbol is used to start a comment in Python?
+A04) 
+
+Q05) How is a comment different from a line of Python code?
+A05) 
+
+Q06) Where is the best place to put a comment?
+A06) 
+
+Q07) How do you create a module level Doc-string?
+A07) 
+"""
