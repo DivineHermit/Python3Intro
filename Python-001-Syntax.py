@@ -57,8 +57,5 @@ Q05) How is a comment different from a line of Python code?
 A05) 
 
 Q06) Where is the best place to put a comment?
-A06) 
-
-Q07) How do you create a module level Doc-string?
-A07) 
+A06)  
 """
