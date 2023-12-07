@@ -71,16 +71,29 @@ print(year, type(year))
 # 'year' is now a string variable instead of in integer, so if your code needs a specific datatype you'll have to code in checks before
 # allowing your program to continue running. 
 
-# Type hinting can be useful as more powerful IDE's can use detect the type hinting and offer guidance when using other peoples code.
+# Type hinting can be useful as more powerful IDE's can detect the type hinting and offer guidance when using other peoples code.
 
-# Lets take a quick look at functions with type hinting:
-def add(v1: float, v2: float):
-    return v1+v2
-# We've called our function something informative 'add' and it takes two(2) values 'v1' & 'v2' and we use type hinting to tell people
-# it wants a float datatype, I've used float as they can take both integers and floats.
-# So we can give values like 1,42, 3.1415, 6.9 and the function will still work, lets have a go:
-print(add(2, 2))
-print(add(6.9, 3.1))
-# As we discovered earlier, Python doesn't enforce type hinting so we could still use the above function in other ways, such as:
-print(add("Hello ", "World!"))
-# Since two(2) strings can be concatenated with the '+' operator the function still works, well cover this is more details in the next section.
+# STRING, INTEGER & FLOAT QUESTIONS:
+"""
+Q01) Give an example of string assignment using casting.
+A01)
+
+Q02) What is the datatype for the 'x' variable in the following code:
+    x = input("Enter your name: ")
+A02) 
+
+Q03) True or False: Type Hinting forces the datatype to match the hinting.
+A03) 
+
+Q04) Give an example of integer assignment using casting.
+A04)
+
+Q05) How could you change 'x = "42"' so the 'x' variable contains an Integer instead of a String?
+A05) 
+
+Q06) What is the value of x in the following code: x = int(3.1415)
+A06)
+
+Q07) Give an example of float assignment using casting.
+A07)
+"""

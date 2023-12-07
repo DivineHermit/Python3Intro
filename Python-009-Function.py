@@ -44,7 +44,7 @@ def greet(name: str) -> None:
     print(f"Hi {name}.")
     return None
 # This may look much more complicated at first but supplies us with all the information on what the function expects as input,
-# the docstring describes the function, parameters and what the function returns.
+# the docstring describes the function, parameters and what the function returns and the '-> None' also tells us what the function returns.
 
 # A function ALWAYS returns something, even the first two(2) examples return something, but Python let us get away with not specifying 'return'
 # and did it for us in the background.
@@ -67,3 +67,15 @@ print("add(5, 5) returned a value of", answer)
 # Descriptive names: Using snake case the functions name should describe what it does.
 # Do one thing:      A function should focus on doing just one thing, if you're writing a long function it may need breaking down into smaller functions.
 # Limited arguments: Try to keep your argument/parameter use to as few as possible, aim for four(4) or less.
+
+# FUNCTION QUESTIONS:
+"""
+Q01) Write out three(3) more bare minimum style functions for multiplication, subtraction and division.
+A01)
+
+Q02) Now update your functions, from the previous question, to include Type Hinting and Doc-strings.
+A02)
+
+Q03) Finally, make a function all of your own. (Hint: Consider taking inspiration from past lessons.)
+A03) 
+"""

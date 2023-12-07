@@ -39,7 +39,7 @@ else:
     # No other conditions were set so this code is ran
     print("I am not false!")
 
-# QUESTIONS:
+# SYNTAX & OUTPUT QUESTIONS:
 """
 Q01) Give at least two examples of printing data to the screen?
 A01) 
