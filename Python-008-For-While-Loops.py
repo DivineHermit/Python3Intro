@@ -41,5 +41,15 @@ fruits = ["Apple", "Orange", "Grape", "Mellon", "Banana"]
 for fruit in fruits:
     print("fruit =", fruit)
 
-# For loops are generally faster than While loops but you should built in functions if available as they are much faster.
+# For loops are generally faster than While loops but you should use built in functions if available as they are much faster.
 # Example, instead of looping over a list of numbers to add them all together, use the built in sum() function.
+
+print("\nPlaceholder Variables:")  # Output separator
+# You can use an '_' as a placeholder for unused data. Below gets the Key and Value from a dictionary but we ignore the key and only print the value.
+example_dict = {1:"one", 2:"two", 3:"three"}
+for _, val in example_dict.items():
+    print(val)
+
+# A better way of doing the above is to just get the values from the dictionary:
+for value in example_dict.values():
+    print(value)

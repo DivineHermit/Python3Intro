@@ -75,7 +75,6 @@ CORE
 
 ---Sets
 ----Set / set: x = {"one", "two", "three", "three"}
-----Frozen Set / frozenset: frozenset({"one", "two", "three", "three"})
 
 ---Boolean
 ----Boolean / bool: x = True
@@ -89,7 +88,6 @@ CORE
 
 -DRY Don't Repeat Yourself
 --Functions
---Lambda
 
 -Imports/Modules
 --PIP

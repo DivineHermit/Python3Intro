@@ -97,4 +97,7 @@ A03)
 
 Q04) Give an example of the same variable in Camel case, Pascal case and Snake case.
 A04) 
+
+Q05) If you were going to store some data about a person, give examples of good variable names and datatypes to do so.
+A05)
 """
