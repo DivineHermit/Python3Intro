@@ -43,4 +43,6 @@ def main():
 
 
 if __name__ == "__main__":
+    # If we run this file the below call to the 'main()' function is called and the code in that function is activated.
+    # However, if we imported this file, the 'main()' function is NOT run and above functions are loaded into the importing script to be used there.
     main()

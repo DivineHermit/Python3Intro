@@ -11,13 +11,14 @@
 # Pygame, Pyperclip, Numpy, Random, & Pandas are some example of importable modules. 
 # We briefly saw use of imports when we used the random module in the Python-005-Operators.py file.
 
+print("IMPORT THE RANDOM MODULE".center(50, "+"))  # Output separator
 # To import a module you use the keyword 'import' followed by the name of the module, lets import the random module:
 import random
 
 # We can now access the function in the random module as follows:
 
 rnd_int = random.randint(1, 11)  # The 'randint' function will return a number from 1 to 10, 11 isn't included.
-print("\nNumber picked by randint:", rnd_int)
+print("Number picked by randint:", rnd_int)
 
 # One of the best practices is how you order your imports:
 # Standard Library
@@ -37,8 +38,24 @@ except ImportError:
     # The module, probably, isn't installed so lets print out a message.
     print("\nError importing 'Pyperclip' module.\n")
 
+print("IMPORTING OUR MATH FUNCTIONS".center(50, "+"))  # Output separator
 # Since we handled the import error from pyperclip the script will continue to run and we can use the code from the other modules
 print("1+1 =", PLE.add(1,1))
 print("1066/69 =", PLE.divide(1066, 69))
 print("24*20 =", PLE.multiply(24, 20))
-print("90210-210 =", PLE.subtract(90210, 210))
+print("90210-210 =", PLE.subtract(90210, 210), "\n")
+
+print("GETTING FILE PATHS WITH OS.PATH".center(50, "+"))  # Output separator
+# We can use the 'from' keyword to import only specific code, like this:
+from os import path
+# The 'os' module has many functions for interacting with the Operating System, but by using the 'from' keyword
+# we import only what we need, saving memory and complexity.
+# Now we can print out the file path of this script:
+print("This script is located at:", path.abspath(__file__), "\n")
+
+# A common occurrence in online tutorials is to use star '*' imports, it looks like this:
+from turtle import *
+from math import *
+# We now have access to ALL the functions of the turtle and maths modules... but this is bad practice.
+# Not only do we not know from which module a function is from the math module will override and functions with the same name in the turtle module.
+# It is better to use aliasing to shorten the names of modules or the imported functions.

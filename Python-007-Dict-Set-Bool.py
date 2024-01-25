@@ -17,7 +17,7 @@ print("*"*20)
 # By specifying the Key 'name' we get the value 'Bob'.
 
 # We can also access a Dictionary directly using square brackets, similar to slicing.
-print(person['name'])
+print("Key: name / Value:", person['name'])
 
 # We can get all the Keys or all the Values with the following methods:
 print("Keys".ljust(7), "=", person.keys())
@@ -93,3 +93,20 @@ if your_age.isnumeric():
 else:
     # if 'isnumeric()' can't determine a numerical value, this message is printed instead.
     print("That may not be a number!")
+
+
+"""
+Q01) Create a dictionary to represent a person. (Hint: think of the field in your phones contacts app. Use None for the values.)
+A01)
+
+Q02) Now use your above dictionary to create two representations of a person.
+     Use the dictionary methods or square bracket method to add/alter values.
+    (Hint: Don't use a real info, try picking a fictional character.)
+A02)
+
+Q03) Dictionaries and Set both use curly brackets but describe the differences between the two data types.
+A03) 
+
+Q04) 
+A04) 
+"""

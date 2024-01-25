@@ -48,6 +48,9 @@ print(a,b,c)  # we can print the variables to see there contents.
 # or what part of the code is aware that the variable exists.
 # The variables created above are considered to be in the 'global' scope and could be easily used anywhere in this file.
 
+# You can also make large integers easier to read by using underscores:
+large_int = 1_000_000_000
+
 # VARIABLE SCOPE #
 # ============== #
 print("VARIABLE SCOPE".center(50, "+"))  # Output separator

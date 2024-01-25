@@ -53,3 +53,19 @@ for _, val in example_dict.items():
 # A better way of doing the above is to just get the values from the dictionary:
 for value in example_dict.values():
     print(value)
+
+
+"""
+Q01)
+A01)
+
+Q02)
+A02)
+
+Q03) Create a for loop to iterate over the list and print out each item 
+A03)
+numbers = ["one", "two", "three", "four", "five"]
+
+Q04)
+A04)
+"""
