@@ -103,4 +103,6 @@ A04)
 
 Q05) If you were going to store some data about a person, give examples of good variable names and datatypes to do so.
 A05)
+
+You could also have a go at Project-001-Variables.py
 """

@@ -44,11 +44,11 @@ print(triple_double_quote)
 # ESCAPE CHARACTERS #
 # ================= #
 print("ESCAPE CHARACTERS".center(50, "+"))  # Output separator
-# Those of you paying attention will have notice I mentioned 'escape them' and wondered what I was babbling about, well.
+# Those of you paying attention will have noticed I mentioned 'escape them' and wondered what I was babbling about, well.
 # Escape characters have special meanings in strings for example '\n' will create a new line, while '\t' will appear as
 # four(4) spaces otherwise known as a tab.
 # But we can also escape quotation marks to make them part of the text instead of part of the code:
-escaped_text = 'Cann\'t, wont\'t, we\'re'
+escaped_text = 'Can\'t, won\'t, we\'re'
 print(escaped_text)
 # By placing a backslash '\' before the single quote we tell Python we'er not ending the string just including the apostrophe character in the text.
 # I prefer using double quotation marks to make strings as it lessens the use of escape characters and makes things easier to read.
@@ -57,7 +57,7 @@ print(escaped_text)
 # This will treat the backslash '\' as an actual character instead of the escape character.
 # This can be helpful if you need to specify a Windows file/folder path, e.g. 'C:\Users\Bob' or if your using Regular Expressions.
 # (Lets not fall down that rabbit hole just yet!)
-raw_text = r"Cann't,\nwont't,\nwe're\\"
+raw_text = r"Can't,\nwont't,\nwe're\\"
 print(raw_text)
 
 # SLICING #
@@ -149,6 +149,10 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 # upper()       - Converts a string into upper case
 # zfill()       - Fills the string with a specified number of 0 values at the beginning
 
+print("METHOD EXAMPLES".center(50, "+"))  # Output separator
+# You can try these out on the 'text' variable to see exactly what they do, use the following format: text.METHOD()
+print("Split the text:\n", text.split())
+print("\nReplace all the 'a' characters with a smiley face:\n", text.replace("a", "☺"))
 # STRING CONCATENATION #
 # ==================== #
 print("STRING CONCATENATION".center(50, "+"))  # Output separator
@@ -175,7 +179,7 @@ birth_year = int(input("What year were you born?: "))  # ask for the users birth
 # Now that we have a 'text' string to format, and some data to format it with, 'name' & 'birth_year' lets insert them into the 'text':
 print(text.format(name, 2023-birth_year))
 # For each placeholder, you need to supply something to take its place.
-# above 'name' slots into the first placeholder and then the answer to 2023-birthyear is placed into the second placeholder,
+# above 'name' slots into the first placeholder and then the answer to 2023 minus 'birth_year' is placed into the second placeholder,
 # and we dont have to worry about converting the answer to a string as the format method takes care of that for us, yay.
 age, year, name = 33, 1990, "Bob"
 print("Hello {2}, you are {0} years old making {1} your birth year!".format(age, year, name))

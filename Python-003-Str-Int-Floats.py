@@ -79,7 +79,7 @@ Q01) Give an example of string assignment using casting.
 A01)
 
 Q02) What is the datatype for the 'x' variable in the following code:
-    x = input("Enter your name: ")
+     x = input("Enter your name: ") # user enters 6.9
 A02) 
 
 Q03) True or False: Type Hinting forces the datatype to match the hinting.
@@ -96,4 +96,6 @@ A06)
 
 Q07) Give an example of float assignment using casting.
 A07)
+
+You could also have a go at Project-002-Input.py
 """

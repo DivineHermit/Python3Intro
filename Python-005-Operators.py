@@ -9,11 +9,10 @@
 """
 # OPERATORS #
 # ========= #
-print("OPERATORS".center(50, "+"))  # Output separator
-# Operators are used in a variety of way, assignment, comparison, math, logic and more.
+# Operators are used in a variety of ways, assignment, comparison, math, logic and more.
 
 # ASSIGNMENT:
-print("ASSIGNMENT OPERATORS:")
+print("ASSIGNMENT OPERATORS".center(50, "+"))  # Output separator
 # The basic assignment you're already familiar with.
 #  = 	x = 5 	    x = 5
 x = 5; print("x = 5 | x now hold the value of:", x)
@@ -47,7 +46,7 @@ x = 5; x //= 3; print("x = 5 | x //= 3 | x now hold the value of:", x)
 x = 5; x **= 3; print("x = 5 | x **= 3 | x now hold the value of:", x)
 
 # COMPARISON:
-print("\n\nCOMPARISON OPERATORS:")
+print("COMPARISON OPERATORS".center(50, "+"))  # Output separator
 # ==    Equal                       (x == y)
 # You're already familiar with '=' for assigning data to a variable, but you can also use '==' for comparison.
 a = 5; b = 5; print(f"Are 'a={a}' and 'b={b}' equal? :", a == b)
@@ -83,7 +82,7 @@ print("RANDOM NUMBERS".center(50, "+"))  # Output separator
 # We'll use the 'random' module, which hold several new functions, to generate some random numbers, first we need to import the module:
 import random  # side note: imports are supposed to go at the top of the script, right after the Doc-String
 # from this point on we have access to the new functions lets get a random integer
-print(random.randint(0, 101))
+print("The 'randint' method chose:", random.randint(0, 101), "Run the script again and see if it chooses something different.")
 # above we access the random module and use the 'randint' function to get a random number between 0 and 100, as 101 is not included in the range.
 
 # MATH OPERATORS #
