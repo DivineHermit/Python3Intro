@@ -41,15 +41,15 @@ print("FILE METHODS".center(50, "+"))  # Output separator
 # Since we have the data we can close the file.
 file.close()
 
-print("FILE HANDLERS".center(50, "+"))  # Output separator
+print("CONTEXT MANAGERS".center(50, "+"))  # Output separator
 # Having to open, process and close a file can be a bit long winded (But it's a good idea to know the process)
-# so lets take a look at File Handlers #TODO: Terminology
+# so lets take a look at using a context manager to handle the file for us.
 
-# By using the keyword with we create a file handler that will automatically close the file when we are done with it.
+# By using the keyword with we create a context manger that will automatically close the file when we are done with it.
 with open("Python3 Intro\Lorum.txt") as f:
     # The file is opened and we access it by using the alias we gave it using 'as f'
     # now we can do what we want with the contents
     for line in f.readlines():
         print(line)
-# When the code in the file handler is done the file is closed:
+# When the code in the context manger is done the file is closed:
 print(f"\nIs the file closed: {f.closed}")
