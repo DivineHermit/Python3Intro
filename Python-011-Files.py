@@ -22,8 +22,11 @@ print(file, "\n") # it contains an TextIOWrapper and the name, mode and encoding
 # The mode is how we are interacting with the file,
 #  'r' means we are reading data from the file
 #  'w' means we are writing data to the file
-#  'a' means we are appending to the file, this is different to writing and we'll cover the differences a little later.
-# TODO: Encoding
+#  'a' means we are appending to the file, this is different to writing.
+
+# The difference between 'w' writing and 'a' appending to a file is when we write to a file we are defining exactly
+# what the file will contain, while when appending the data is added to hte end of the file leaving existing data intact.
+# Wether writing or appending formatting you data is important as linebreaks are not automatically included.
 
 # Now we can get all the contents out of the file using the 'read' method
 text = file.read()
@@ -33,7 +36,23 @@ print(text, "\n")
 
 print("FILE METHODS".center(50, "+"))  # Output separator
 [print(x) for x in dir(file) if not x.startswith("_")]  # (a list comprehension to print out all the file methods)
-# TODO: File methods.
+# Method summery from: https://www.w3schools.com/python/python_ref_file.asp
+# close()	    Closes the file
+# detach()	    Returns the separated raw stream from the buffer
+# fileno()	    Returns a number that represents the stream, from the operating system's perspective
+# flush()	    Flushes the internal buffer
+# isatty()	    Returns whether the file stream is interactive or not
+# read()	    Returns the file content
+# readable()	Returns whether the file stream can be read or not
+# readline()	Returns one line from the file
+# readlines()	Returns a list of lines from the file
+# seek()	    Change the file position
+# seekable()	Returns whether the file allows us to change the file position
+# tell()	    Returns the current file position
+# truncate()	Resizes the file to a specified size
+# writable()	Returns whether the file can be written to or not
+# write()	    Writes the specified string to the file
+# writelines()	Writes a list of strings to the file
 
 # If you've ever tried to access/move/delete a file and got a message that it is still being used
 # one reason could be that it wasn't closed correctly, this used to happen a lot when an application crashed
