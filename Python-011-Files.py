@@ -15,7 +15,7 @@ print("FILE HANDLING".center(50, "+"))  # Output separator
 
 # We'll focus on text files as Python can handle them without having to import extra modules.
 # First we create a file object so we can interact with the contents:
-file = open("Python3 Intro//Lorum.txt")
+file = open("Lorum.txt")
 # If we print out te contents of our 'file' variable we'll see it doesn't contain the contents of the text document
 print(file, "\n") # it contains an TextIOWrapper and the name, mode and encoding of the text file.
 # The name is the filename, and possibly filepath.
@@ -65,7 +65,7 @@ print("CONTEXT MANAGERS".center(50, "+"))  # Output separator
 # so lets take a look at using a context manager to handle the file for us.
 
 # By using the keyword with we create a context manger that will automatically close the file when we are done with it.
-with open("Python3 Intro/Lorum.txt") as f:
+with open("Lorum.txt") as f:
     # The file is opened and we access it by using the alias we gave it using 'as f'
     # now we can do what we want with the contents
     for line in f.readlines():
