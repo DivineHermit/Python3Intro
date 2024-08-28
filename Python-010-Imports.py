@@ -36,7 +36,7 @@ try:
     # if you dont have pyperclip installed then an ImportError occurs and can be handled below.
 except ImportError:
     # The module, probably, isn't installed so lets print out a message.
-    print("\nError importing 'Pyperclip' module.\n")
+    print("\nError importing 'Pyperclip' module.\nYou can install it using 'pip install pyperclip'")
 
 print("IMPORTING OUR MATH FUNCTIONS".center(50, "+"))  # Output separator
 # Since we handled the import error from pyperclip the script will continue to run and we can use the code from the other modules

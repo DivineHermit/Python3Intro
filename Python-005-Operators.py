@@ -107,7 +107,7 @@ print(f"Division:\n{val1}/{val2} =", val1 / val2)
 print(f"Floor Division:\n{val1}//{val2} =", val1 // val2)
 # Power:
 # multiply the first value by itself a given number (second value) of times.
-print(f"Power:\n{val1}**{val2} =", val1 ** val2, f"\n({ "x".join([str(val1) for x in range(val2)])})")
+print(f"Power:\n{val1}**{val2} =", val1 ** val2, f"\n({ 'x'.join([str(val1) for x in range(val2)])})")
 # Note: the list comprehension above is used to print out an alternative visual representation of the power calculation.
 
 # OPERATOR QUESTIONS:

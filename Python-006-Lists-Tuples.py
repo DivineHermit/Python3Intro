@@ -70,11 +70,11 @@ print("\nTuple methods:")
 # As you can see, there aren't that many things we can do to our tuple. 
 
 # The count method will return an integer 
-print(f"\nThere are {countries.count("England")} instances of 'England' in the tuple.")
-print(f"There is {countries.count("Bob")} instance of 'Bob' in the tuple.")  # Wait a minute... BOB!
+print(f"\nThere are {countries.count('England')} instances of 'England' in the tuple.")
+print(f"There is {countries.count('Bob')} instance of 'Bob' in the tuple.")  # Wait a minute... BOB!
 
 # The index method will return the index location of the given item, lets locate Bob:
-print(f"Bob's index is {countries.index("Bob")}")
+print(f"Bob's index is {countries.index('Bob')}")
 
 # Tuples are immutable like strings, meaning once created tuples can NOT be added to or have items removed from them.
 # This means Bob is stuck somewhere between France and Spain forever, kinda.
